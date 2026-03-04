@@ -36,6 +36,39 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/oantuti',
+		name: 'Oẳn Tù Tì',
+		component: './RockPaperScissors',
+		icon: 'ArrowsAltOutlined',
+	},
+	{
+		name: 'NganHangCauHoi',
+		path: '/ngan-hang-cau-hoi',
+		icon: 'DatabaseOutlined',
+		routes: [
+			{
+				name: 'KhoiKienThuc',
+				path: 'khoi-kien-thuc',
+				component: './NganHangCauHoi/KhoiKienThuc',
+			},
+			{
+				name: 'MonHoc',
+				path: 'mon-hoc',
+				component: './NganHangCauHoi/MonHoc',
+			},
+			{
+				name: 'CauHoi',
+				path: 'cau-hoi',
+				component: './NganHangCauHoi/CauHoi',
+			},
+			{
+				name: 'DeThi',
+				path: 'de-thi',
+				component: './NganHangCauHoi/DeThi',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
